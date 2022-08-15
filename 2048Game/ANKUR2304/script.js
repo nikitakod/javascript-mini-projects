@@ -15,9 +15,7 @@ function right() {
   for (var i = 14; i > 0; i -= 4) {
     //alert("step1");
     access = false;
-    for (var j = i; j >= i - 2; j--) {
-      //alert("step2");
-      if (arr[j].innerHTML !== "") {
+    for (var j = i; j
         k = j;
         while (
           k < i + 1 &&
@@ -41,10 +39,7 @@ function right() {
             access === true
           ) {
             access === false;
-          } else if (arr[k + 1].innerHTML === "") {
-            arr[k + 1].innerHTML = parseInt(arr[k].innerHTML);
-            arr[k].innerHTML = "";
-            can = true;
+          } else if (arr[k + 1].innerHTML ===
           }
           k += 1;
         }
@@ -94,9 +89,6 @@ function left() {
           } else if (arr[k - 1].innerHTML === "") {
             arr[k - 1].innerHTML = parseInt(arr[k].innerHTML);
             arr[k].innerHTML = "";
-            can = true;
-          }
-          k -= 1;
         }
       }
     }
@@ -131,12 +123,7 @@ function down() {
             arr[k + 4].innerHTML =
               parseInt(arr[k + 4].innerHTML) + parseInt(arr[k].innerHTML);
             arr[k].innerHTML = "";
-            can = true;
-            access = true;
-            score.innerHTML =
-              parseInt(arr[k + 4].innerHTML) + parseInt(score.innerHTML);
-          } else if (
-            parseInt(arr[k + 4].innerHTML) === parseInt(arr[k].innerHTML) &&
+            can = true;nnerHTML) &&
             access === true
           ) {
             access === false;
@@ -178,11 +165,7 @@ function up() {
             access === false
           ) {
             arr[k - 4].innerHTML =
-              parseInt(arr[k - 4].innerHTML) + parseInt(arr[k].innerHTML);
-            arr[k].innerHTML = "";
-            can = true;
-            access = true;
-            score.innerHTML =
+              parseInt(arr[k - 4].innerHTML) + parseInt(arr[k].
               parseInt(arr[k - 4].innerHTML) + parseInt(score.innerHTML);
           } else if (
             parseInt(arr[k - 4].innerHTML) === parseInt(arr[k].innerHTML) &&
@@ -220,10 +203,6 @@ function random() {
       done = true;
     }
   }
-}
-
-function av() {
-  var x = false;
   var count = 0;
   for (var i = 0; i < 16; i++) {
     if (arr[i].innerHTML === "") {
@@ -260,10 +239,6 @@ function check() {
           x = true;
         }
         break;
-      case 2:
-        if (
-          arr[2].innerHTML === arr[1].innerHTML ||
-          arr[3].innerHTML === arr[2].innerHTML ||
           arr[2].innerHTML === arr[6].innerHTML
         ) {
           x = true;
@@ -297,9 +272,6 @@ function check() {
         }
         break;
       case 6:
-        if (
-          arr[6].innerHTML === arr[5].innerHTML ||
-          arr[6].innerHTML === arr[2].innerHTML ||
           arr[6].innerHTML === arr[7].innerHTML ||
           arr[6].innerHTML === arr[10].innerHTML
         ) {
@@ -346,10 +318,6 @@ function check() {
         break;
       case 11:
         if (
-          arr[11].innerHTML === arr[7].innerHTML ||
-          arr[11].innerHTML === arr[15].innerHTML ||
-          arr[11].innerHTML === arr[10].innerHTML
-        ) {
           x = true;
         }
         break;
@@ -378,9 +346,6 @@ function check() {
         ) {
           x = true;
         }
-        break;
-      case 15:
-        if (
           arr[15].innerHTML === arr[11].innerHTML ||
           arr[15].innerHTML === arr[14].innerHTML
         ) {
@@ -412,9 +377,6 @@ function pause() {
   pause.style.display = "block";
   var control = document.getElementById("control");
   control.style.display = "none";
-}
-function reset() {
-  var pause = document.getElementById("pause");
   pause.style.display = "none";
   init();
 }
@@ -436,8 +398,6 @@ function resume() {
 
 window.addEventListener("keydown", function (e) {
   if (e.code == "ArrowLeft") {
-    left();
-  } else if (e.code == "ArrowRight") {
     right();
   } else if (e.code == "ArrowUp") {
     up();

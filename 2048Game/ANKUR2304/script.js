@@ -1,4 +1,4 @@
-var q = 5;
+var q = 6;
 var arr = document.getElementsByClassName("element");
 init();
 

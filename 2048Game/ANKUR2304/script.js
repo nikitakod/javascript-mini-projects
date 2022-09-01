@@ -3,9 +3,6 @@ var arr = document.getElementsByClassName("element");
 init();
 
 window.onload = init();
-
-var arr = document.getElementsByClassName("element");
-
 function right() {
   var can = false;
   var access = false;

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # <a href="https://shashirajraja.github.io/onlinebookstore/WebContent/index.html" target="_blank"> OnlineBookStore </a> Website Using Java 
 ![onlinebookstore](https://user-images.githubusercontent.com/34605595/137615096-8447d32d-bddc-4f13-a8ed-3c0f4dd5e04e.png)
 #### To View First Front Page Design of this website <a href="https://shashirajraja.github.io/onlinebookstore/WebContent/index.html" target="_blank">Click Here</a><br>
@@ -105,3 +106,29 @@ Step 8: Default Username And Password For User Is "shashi" And "shashi"
 <bold>Thanks a lot</bold><br/>
                                                                                                         Project Leader<br/>
                                                                                                          <b>Shashi Raj</b>
+=======
+### This is an open-source repository that collects different projects.
+
+# Make some awesome projects, put them in your directory and create a pull request.
+
+***
+
+### Steps to contribute
+# 👉 Fork this repository
+# 👉 Clone the repository
+# 👉 Create a branch ```projectname-username-branch```
+# 👉 Add your projects in the respective directory (if exist otherwise create one), the name of directory should be your ```ProjectName/USERNAME```
+# 👉 Attach some SCREENSHOTS or GIF of your working project in the description _❗Important❗_. 
+# 👉 Add ```One project``` at a time
+# 👉 Add & commit
+# 👉 Push changes to GitHub
+# 👉 Compare & Submit a Pull Request
+# 👉 Leave a ⭐ if you liked working on the project.
+
+We're happy to merge awesome portfolio to this repository!
+
+***
+
+# Hurray! Now you are a part of open source community 🚀🚀🚀
+ 
+>>>>>>> 9622c3a65df5b71d4868f64f9e8692a726962143

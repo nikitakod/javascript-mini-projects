@@ -4,10 +4,7 @@ init();
 
 window.onload = init();
 function right() {
-  var can = false;
-  var access = false;
-  var k;
-  var score = document.getElementById("score");
+
 
   for (var i = 14; i > 0; i -= 4) {
     //alert("step1");

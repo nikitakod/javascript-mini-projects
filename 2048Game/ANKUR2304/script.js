@@ -3,7 +3,7 @@ var arr = document.getElementsByClassName("element");
 init();
 
 window.onload = init();
-function right() {
+function right() 
 
 
   for (var i = 14; i > 0; i -= 4) {

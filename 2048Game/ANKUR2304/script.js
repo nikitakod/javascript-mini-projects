@@ -2,7 +2,7 @@ var q = 6;
 var arr = document.getElementsByClassName("element");
 init();
 
-window.onload = init();
+window.onload = init()
 function right() 
 
 

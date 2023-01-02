@@ -8,27 +8,12 @@ const App = () => {
 
   return (
     <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100vh",
-      }}
-    >
-      <div style={{ flexDirection: "column" }}>
-        <div>
-          {bulb === "bulb" && (
-            <img
-              alt="Light Bulb"
-              src={bulbOffImage}
-              width="300px"
-              height="400px"
-            />
+      st
           )}
 
           {bulb === "on" && (
             <img
-              alt="Glow Bulb"
+              alt="Glow Bulb
               src={bulbOnImage}
               width="300px"
               height="400px"
